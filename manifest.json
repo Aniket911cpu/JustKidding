@@ -1,0 +1,13 @@
+{
+   "action": {
+      "default_icon": "images/icon.png",
+      "default_popup": "popup.html",
+      "default_title": "Just Kidding"
+   },
+   "icons": {
+      "128": "images/icon.png"
+   },
+   "manifest_version": 3,
+   "name": "Just Kidding",
+   "version": "1.7.0"
+}
