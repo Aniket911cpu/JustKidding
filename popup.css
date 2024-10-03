@@ -1,35 +1,41 @@
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 20px;
-  }
-  
-  .container {
-    max-width: 300px;
-    margin: auto;
-  }
-  
-  #funnyGif {
-    width: 100%;
-    height: auto;
-  }
-  
-  #joke {
-    margin: 20px 0;
-    font-size: 16px;
-  }
-  
-  #laughButton {
-    background-color: #ff4081;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-  
-  #laughButton:hover {
-    background-color: #e91e63;
-  }
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 300px;
+  margin: auto;
+}
+
+#funnyGif {
+  width: 100%;
+  height: auto;
+}
+
+#joke {
+  margin: 20px 0;
+  font-size: 16px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #ff4081;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #e91e63;
+}
